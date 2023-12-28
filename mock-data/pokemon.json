@@ -1,0 +1,94 @@
+{
+    "pokemon": [
+        {
+            "list-id": 1,
+            "name": "Pikachu",
+            "national-dex-number": 25,
+            "type": ["electric"],
+            "egg-groups": ["fairy", "field"],
+            "base-stat": 320,
+            "abilities": ["static", "lightning rod"]
+        },
+        {
+            "list-id": 2,
+            "name": "Eevee",
+            "national-dex-number": 133,
+            "type": ["normal"],
+            "egg-groups": ["field"],
+            "base-stat": 325,
+            "abilities": ["run away", "adaptability", "anticipation"]
+        },
+        {
+            "list-id": 3,
+            "name": "Jynx",
+            "national-dex-number": 124,
+            "type": ["ice", "psychic"],
+            "egg-groups": ["human-like"],
+            "base-stat": 455,
+            "abilities": ["oblivious", "forewarn", "dryskin"]
+        },
+        {
+            "list-id": 4,
+            "name": "Skarmory",
+            "national-dex-number": 227,
+            "type": ["steel", "flying"],
+            "egg-groups": ["flying"],
+            "base-stat": 465,
+            "abilities": ["keen eye", "sturdy", "weak armor"]
+        },
+        {
+            "list-id": 5,
+            "name": "Togekiss",
+            "national-dex-number": 468,
+            "type": ["fairy", "flying"],
+            "egg-groups": ["fairy", "flying"],
+            "base-stat": 545,
+            "abilities": ["hustle", "serene grace", "super luck"]
+        },
+        {
+            "list-id": 6,
+            "name": "Hydreigon",
+            "national-dex-number": 635,
+            "type": ["dark", "dragon"],
+            "egg-groups": ["dragon"],
+            "base-stat": 600,
+            "abilities": ["levitate"]
+        },
+        {
+            "list-id": 7,
+            "name": "Hypno",
+            "national-dex-number": 97,
+            "type": ["psychic"],
+            "egg-groups": ["human-like"],
+            "base-stat": 483,
+            "abilities": ["insomnia", "forewarn", "inner focus"]
+        },
+        {
+            "list-id": 8,
+            "name": "Eelektross",
+            "national-dex-number": 604,
+            "type": ["electric"],
+            "egg-groups": ["amorphous"],
+            "base-stat": 515,
+            "abilities": ["levitate"]
+        },
+        {
+            "list-id": 9,
+            "name": "Reuniclus",
+            "national-dex-number": 579,
+            "type": ["psychic"],
+            "egg-groups": ["amorphous"],
+            "base-stat": 490,
+            "abilities": ["overcoat", "magic guard", "regenerator"]
+        },
+        {
+            "list-id": 10,
+            "name": "Breloom",
+            "national-dex-number": 286,
+            "type": ["grass", "fighting"],
+            "egg-groups": ["fairy", "grass"],
+            "base-stat": 460,
+            "abilities": ["effect spore", "poison heal", "technician"]
+        }
+    ]
+}
