@@ -1,0 +1,94 @@
+{
+    "pokemon": [
+        {
+            "list-id": 31,
+            "name": "Oddish",
+            "national-dex-number": 43,
+            "type": ["grass", "poison"],
+            "egg-groups": ["grass"],
+            "base-stat": 320,
+            "abilities": ["chlorophyll", "run away"]
+        },
+        {
+            "list-id": 32,
+            "name": "Bellsprout",
+            "national-dex-number": 69,
+            "type": ["grass", "poison"],
+            "egg-groups": ["grass"],
+            "base-stat": 300,
+            "abilities": ["chlorophyll", "gluttony"]
+        },
+        {
+            "list-id": 33,
+            "name": "Bayleef",
+            "national-dex-number": 153,
+            "type": ["grass"],
+            "egg-groups": ["grass", "monster"],
+            "base-stat": 405,
+            "abilities": ["overgrow", "leaf guard"]
+        },
+        {
+            "list-id": 34,
+            "name": "Sunflora",
+            "national-dex-number": 192,
+            "type": ["grass"],
+            "egg-groups": ["grass"],
+            "base-stat": 425,
+            "abilities": ["chlorophyll", "solar power", "early bird"]
+        },
+        {
+            "list-id": 35,
+            "name": "Roselia",
+            "national-dex-number": 315,
+            "type": ["grass", "poison"],
+            "egg-groups": ["fairy", "grass"],
+            "base-stat": 400,
+            "abilities": ["natural cure", "poison point", "leaf guard"]
+        },
+        {
+            "list-id": 36,
+            "name": "Snover",
+            "national-dex-number": 459,
+            "type": ["grass", "ice"],
+            "egg-groups": ["grass", "monster"],
+            "base-stat": 334,
+            "abilities": ["snow warning", "soundproof"]
+        },
+        {
+            "list-id": 37,
+            "name": "Virizion",
+            "national-dex-number": 640,
+            "type": ["grass", "fighting"],
+            "egg-groups": ["undiscovered"],
+            "base-stat": 580,
+            "abilities": ["justified"]
+        },
+        {
+            "list-id": 38,
+            "name": "Morelull",
+            "national-dex-number": 755,
+            "type": ["grass", "fairy"],
+            "egg-groups": ["grass"],
+            "base-stat": 285,
+            "abilities": ["illuminate", "effect spore", "rain dish"]
+        },
+        {
+            "list-id": 39,
+            "name": "Gossifleur",
+            "national-dex-number": 829,
+            "type": ["grass"],
+            "egg-groups": ["grass"],
+            "base-stat": 250,
+            "abilities": ["cotton down", "regenerator", "effect spore"]
+        },
+        {
+            "list-id": 40,
+            "name": "Smoliv",
+            "national-dex-number": 928,
+            "type": ["grass", "normal"],
+            "egg-groups": ["grass"],
+            "base-stat": 260,
+            "abilities": ["early bird", "harvest"]
+        }
+    ]
+}

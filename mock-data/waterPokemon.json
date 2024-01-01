@@ -1,0 +1,94 @@
+{
+    "pokemon": [
+        {
+            "list-id": 21,
+            "name": "Psyduck",
+            "national-dex-number": 54,
+            "type": ["water"],
+            "egg-groups": ["field", "water 1"],
+            "base-stat": 320,
+            "abilities": ["damp", "cloud nine", "swift swim"]
+        },
+        {
+            "list-id": 22,
+            "name": "Poliwag",
+            "national-dex-number": 60,
+            "type": ["water"],
+            "egg-groups": ["water 1"],
+            "base-stat": 300,
+            "abilities": ["water absorb", "damp", "swift swim"]
+        },
+        {
+            "list-id": 23,
+            "name": "Dewgong",
+            "national-dex-number": 87,
+            "type": ["water", "ice"],
+            "egg-groups": ["field", "water 1"],
+            "base-stat": 475,
+            "abilities": ["thick fat", "hydration", "ice body"]
+        },
+        {
+            "list-id": 24,
+            "name": "Staryu",
+            "national-dex-number": 120,
+            "type": ["water"],
+            "egg-groups": ["water 3"],
+            "base-stat": 340,
+            "abilities": ["illuminate", "natural cure", "analytic"]
+        },
+        {
+            "list-id": 25,
+            "name": "Marill",
+            "national-dex-number": 183,
+            "type": ["water", "fairy"],
+            "egg-groups": ["fairy", "water 1"],
+            "base-stat": 250,
+            "abilities": ["thick fat", "huge power", "sap sipper"]
+        },
+        {
+            "list-id": 26,
+            "name": "Wooper",
+            "national-dex-number": 194,
+            "type": ["water", "ground"],
+            "egg-groups": ["field", "water 1"],
+            "base-stat": 210,
+            "abilities": ["damp", "water absorb", "unaware"]
+        },
+        {
+            "list-id": 27,
+            "name": "Lotad",
+            "national-dex-number": 270,
+            "type": ["water", "grass"],
+            "egg-groups": ["grass", "water 1"],
+            "base-stat": 220,
+            "abilities": ["swift swim", "rain dish", "own tempo"]
+        },
+        {
+            "list-id": 28,
+            "name": "Shellos",
+            "national-dex-number": 422,
+            "type": ["water"],
+            "egg-groups": ["amorphous", "water 1"],
+            "base-stat": 325,
+            "abilities": ["sticky hold", "storm drain", "sand force"]
+        },
+        {
+            "list-id": 29,
+            "name": "Tirtouga",
+            "national-dex-number": 564,
+            "type": ["water", "rock"],
+            "egg-groups": ["water 1", "water 3"],
+            "base-stat": 355,
+            "abilities": ["solid rock", "sturdy", "swift swim"]
+        },
+        {
+            "list-id": 30,
+            "name": "Finizen",
+            "national-dex-number": 963,
+            "type": ["water"],
+            "egg-groups": ["field", "water 2"],
+            "base-stat": 315,
+            "abilities": ["water veil"]
+        }
+    ]
+}
