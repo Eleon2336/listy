@@ -1,10 +1,15 @@
+import Box from '@mui/system/Box';
 import Header from '../Header/Header';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
-      <div className="App">
-        <Header />
-      </div>
+    <Box sx={ { width: "100vw", height: "100vh", backgroundColor: "pink" } }>
+      <Header />
+      <Main />
+      <Footer />
+    </Box>
   );
 }
 
