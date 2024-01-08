@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
 import { ThemeProvider } from '@mui/material/styles';
-import theme from "./styles/index";
+import theme from "./theme/theme";
 
 
 

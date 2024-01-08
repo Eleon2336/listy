@@ -53,7 +53,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function SearchAppBar() {
   return (
-    <Box className="OutterBox">
+    <Box className="OutterBox" sx={{ width: "100dvw" }}>
       <AppBar position="static" className='AppyBar'>
         <Toolbar className='Toolybar'>
           <IconButton
@@ -73,7 +73,7 @@ export default function SearchAppBar() {
             sx={{ 
               flexGrow: 1, 
               display: { xs: 'none', sm: 'block' }, 
-              fontSize: { sm: "0.8rem", md: "1rem", lg: "1.2rem"  }, 
+              fontSize: { sm: "1rem", md: "1.25rem", lg: "1.5rem"  }, 
               paddingLeft: "1.5rem"
             }}
           >

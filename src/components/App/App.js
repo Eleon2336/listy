@@ -1,37 +1,21 @@
-import { Container, Paper, Typography } from "@mui/material";
+import { AppContainer, FooterContainer, HeaderContainer, HeaderText } from "./styles-app";
 import SearchAppBar from "../SearchAppBar/SearchAppBar";
-import Main from "../Main/Main";
+import MainTables from "../MainTables/MainTables";
 
 function App() {
   return (
     <>
-      <div className="mainContainer" style={{ display: "flex", margin: "0", padding: "0", minHeight: "100dvh", flexDirection: "column" }}>
-
+      <AppContainer>
         <SearchAppBar />
-        <Container 
-          sx={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center"
-          }}
-        >
-          <Typography
-            variant="h5"
-            sx={{
-              p: "1.2rem" 
-            }}
-          >
-            Normal Types
-          </Typography>
-        </Container>
-        <Main />
+        <HeaderContainer>
+          <HeaderText variant="h5">Normal Types</HeaderText>
+        </HeaderContainer>
+        <MainTables />
 
-        <footer style={{ flex: "1", display: "flex", justifyContent: "center", backgroundColor: "gray" }}>
+        <FooterContainer>
           <h1>Footer</h1>
-        </footer> 
-
-      </div>
-      
+        </FooterContainer> 
+      </AppContainer>
     </>
   );
 }
