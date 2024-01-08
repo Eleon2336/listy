@@ -1,4 +1,4 @@
-import { Paper } from "@mui/material";
+import { Container, Paper, Typography } from "@mui/material";
 import SearchAppBar from "../SearchAppBar/SearchAppBar";
 
 function App() {
@@ -7,10 +7,22 @@ function App() {
       <div className="mainContainer" style={{ display: "flex", margin: "0", padding: "0", minHeight: "100dvh", flexDirection: "column" }}>
 
         <SearchAppBar />
-
-        <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", padding: "1.2rem" }}>
-          <h1>Normal Types</h1>
-        </div>
+        <Container 
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center"
+          }}
+        >
+          <Typography
+            variant="h5"
+            sx={{
+              p: "1.2rem" 
+            }}
+          >
+            Normal Types
+          </Typography>
+        </Container>
 
         <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", flex: "6", padding: "0 1.5rem 1.5rem", gap: "1rem"  }}>
           <div style={{ flex: "1" }}>
