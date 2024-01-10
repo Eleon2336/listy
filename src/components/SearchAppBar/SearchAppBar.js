@@ -33,7 +33,8 @@ export default function SearchAppBar() {
               flexGrow: 1, 
               display: { xs: 'none', sm: 'block' }, 
               fontSize: { sm: "1rem", md: "1.25rem", lg: "1.5rem"  }, 
-              paddingLeft: "1.5rem"
+              paddingLeft: "1.5rem",
+              fontWeight: "bold"
             }}
           >
             LISTY

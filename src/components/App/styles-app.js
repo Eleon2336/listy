@@ -23,8 +23,13 @@ export const HeaderContainer = styled(Container)(() => ({
     maxWidth: "none !important"
 }));
 
-export const HeaderText = styled(Typography)(() => ({
+export const HeaderText = styled(Typography)(({ theme }) => ({
     padding: "1.2rem",
+    fontSize: "1.2rem",
+    fontWeight: "bold",
+    [theme.breakpoints.down("md")]: {
+        fontSize: "1rem"
+    }
 }));
 
 export const FooterContainer = styled(Container)(() => ({
