@@ -50,6 +50,7 @@ export const NavHeader = styled(Typography)(({ theme }) => ({
   fontSize: "1.5rem",
   paddingLeft: "1.5rem",
   fontWeight: "bold",
+  textShadow: "2px 2px 4px #FFFFFF",
   [theme.breakpoints.down("lg")]: {
     fontSize: "1.25rem"
   },
