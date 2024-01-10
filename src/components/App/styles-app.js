@@ -1,5 +1,6 @@
 import { Container, Typography } from "@mui/material"
 import styled from "@emotion/styled";
+import { Colors } from "../../theme/theme";
 
 
 //container
@@ -39,6 +40,6 @@ export const FooterContainer = styled(Container)(() => ({
     margin: "0 !important",
     padding: "0 !important",
     justifyContent: "center",
-    background: "gray",
+    background: Colors.mediumGrey,
     maxWidth: "none !important"
 }));

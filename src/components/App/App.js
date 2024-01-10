@@ -21,7 +21,7 @@ function App() {
         <MainTables />
 
         <FooterContainer>
-          <h1>Footer</h1>
+          <h1 style={{ color: "#0097a7" }}>Footer</h1>
         </FooterContainer> 
       </AppContainer>
     </>

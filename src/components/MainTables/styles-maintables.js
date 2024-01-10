@@ -29,13 +29,13 @@ export const DetailsDiv = styled(Container)(() => ({
 }));
 
 export const ListPaper = styled(Paper)(() => ({
-    background: Colors.info,
+    background: Colors.lightGrey,
     width: "100%",
     height: "100%"
 }));
 
 export const DetailsPaper = styled(Paper)(() => ({
-    background: Colors.info,
+    background: Colors.lightGrey,
     width: "100%",
     height: "100%"
 }));

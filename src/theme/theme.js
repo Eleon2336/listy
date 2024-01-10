@@ -10,7 +10,9 @@ export const Colors = {
   warning: "#ff5722",
   /////SOLID COLOR
   white: "#fff",
-  black: "#000"
+  black: "#000",
+  lightGrey: "#fafafa",
+  mediumGrey: "#bdbdbd"
 };
 
 const theme = createTheme({
