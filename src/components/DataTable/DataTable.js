@@ -12,7 +12,7 @@ export default function DataTable() {
 
   return (
     <TableContainer component={Paper} sx={{ backgroundColor: Colors.lightGrey }}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table  aria-label="simple table">
         <TableBody>
           <TableRow
             key={"Name"}
