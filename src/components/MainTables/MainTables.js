@@ -1,4 +1,5 @@
 import { DetailsDiv, DetailsList, DetailsPaper, ListDiv, ListPaper, MainDiv, PokemonList, TheListItem } from "./styles-maintables";
+import DataTable from "../DataTable/DataTable";
 
 export default function MainTables() {
     return (
@@ -21,7 +22,15 @@ export default function MainTables() {
             </ListDiv>
 
             <DetailsDiv>
-                <DetailsPaper>
+                <DataTable />
+            </DetailsDiv>
+        </MainDiv>
+    );
+}
+
+/*
+
+<DetailsPaper>
                     <DetailsList>
                         <TheListItem><strong>Name: </strong>Rattata</TheListItem>
                         <TheListItem><strong>DexNo: </strong>19</TheListItem>
@@ -31,7 +40,6 @@ export default function MainTables() {
                         <TheListItem><strong>Abilities: </strong>run away, guts</TheListItem>
                     </DetailsList>
                 </DetailsPaper>
-            </DetailsDiv>
-        </MainDiv>
-    );
-}
+
+
+*/
