@@ -3,10 +3,9 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import { Search, SearchIconWrapper, StyledInputBase } from './styles-searchappbar';
+import { Search, SearchIconWrapper, StyledInputBase, NavHeader } from './styles-searchappbar';
 
 
 
@@ -25,20 +24,12 @@ export default function SearchAppBar() {
           >
             <MenuIcon className='MenuyIcon' />
           </IconButton>
-          <Typography
-            variant="h6"
+          <NavHeader
             noWrap
             component="div"
-            sx={{ 
-              flexGrow: 1, 
-              display: { xs: 'none', sm: 'block' }, 
-              fontSize: { sm: "1rem", md: "1.25rem", lg: "1.5rem"  }, 
-              paddingLeft: "1.5rem",
-              fontWeight: "bold"
-            }}
           >
             LISTY
-          </Typography>
+          </NavHeader>
           <Search className='Searchy'>
             <SearchIconWrapper>
               <SearchIcon />

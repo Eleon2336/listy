@@ -1,5 +1,6 @@
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
+import { Typography } from '@mui/material';
 
 export const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -42,3 +43,20 @@ export const Search = styled('div')(({ theme }) => ({
       },
     },
   }));
+
+export const NavHeader = styled(Typography)(({ theme }) => ({
+  flexGrow: "1",
+  display: "block",
+  fontSize: "1.5rem",
+  paddingLeft: "1.5rem",
+  fontWeight: "bold",
+  [theme.breakpoints.down("lg")]: {
+    fontSize: "1.25rem"
+  },
+  [theme.breakpoints.down("md")]: {
+    fontSize: "1rem"
+  },
+  [theme.breakpoints.down("sm")]: {
+    display: "none"
+  }
+}));
