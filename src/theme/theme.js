@@ -8,6 +8,7 @@ export const Colors = {
   info: "#4caf50",
   error: "#ffc107",
   warning: "#ff5722",
+  activeLink: "#f8bbd0",
   /////SOLID COLOR
   white: "#fff",
   black: "#000",

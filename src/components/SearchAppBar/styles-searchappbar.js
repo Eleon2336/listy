@@ -1,5 +1,6 @@
 import InputBase from '@mui/material/InputBase';
 import { Typography } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 import { 
   styled, 
   alpha 
@@ -66,4 +67,10 @@ export const NavHeader = styled(Typography)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     display: "none"
   }
+}));
+
+export const PokeLink = styled(NavLink)(() => ({
+  marginRight: "5rem",
+  textDecoration: "none",
+  fontFamily: '"Roboto","Helvetica","Arial",sans-serif'
 }));

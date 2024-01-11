@@ -5,11 +5,13 @@ import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import {Colors} from "../../theme/theme";
 import { 
   Search, 
   SearchIconWrapper, 
   StyledInputBase, 
-  NavHeader 
+  NavHeader,
+  PokeLink 
 } from './styles-searchappbar';
 
 
@@ -35,6 +37,54 @@ export default function SearchAppBar() {
           >
             LISTY
           </NavHeader>
+          <PokeLink 
+            to={"/normal"} 
+            style={({ isActive }) => {
+              return {
+                color: isActive ? Colors.activeLink : "white",
+                fontWeight: isActive ? "bold" : "",
+                textShadow: isActive ? "2px 2px 6px #FFFFFF" : ""
+              };
+            }}
+          >
+            Normal
+          </PokeLink>
+          <PokeLink 
+            to={"/grass"} 
+            style={({ isActive }) => {
+              return {
+                color: isActive ? Colors.activeLink : "white",
+                fontWeight: isActive ? "bold" : "",
+                textShadow: isActive ? "2px 2px 6px #FFFFFF" : ""
+              };
+            }}
+          >
+            Grass
+          </PokeLink>
+          <PokeLink 
+            to={"/fire"} 
+            style={({ isActive }) => {
+              return {
+                color: isActive ? Colors.activeLink : "white",
+                fontWeight: isActive ? "bold" : "",
+                textShadow: isActive ? "2px 2px 6px #FFFFFF" : ""
+              };
+            }}
+          >
+            Fire
+          </PokeLink>
+          <PokeLink 
+            to={"/water"} 
+            style={({ isActive }) => {
+              return {
+                color: isActive ? Colors.activeLink : "white",
+                fontWeight: isActive ? "bold" : "",
+                textShadow: isActive ? "2px 2px 6px #FFFFFF" : ""
+              };
+            }}
+          >
+            Water
+          </PokeLink>
           <Search className='Searchy'>
             <SearchIconWrapper>
               <SearchIcon />
