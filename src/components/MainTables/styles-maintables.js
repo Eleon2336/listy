@@ -45,5 +45,11 @@ export const TheListItem = styled(ListItem)(() => ({
 
 export const ListItemText = styled(Typography)(({ theme }) => ({
     color: theme.palette.info.main,
-    fontSize: "0.85rem"
+    fontSize: "0.85rem",
+    [theme.breakpoints.down("md")]: {
+        fontSize: "0.7rem"
+    },
+    [theme.breakpoints.down("sm")]: {
+        fontSize: "0.65rem"
+    }
 }));
