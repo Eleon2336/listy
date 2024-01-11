@@ -13,14 +13,9 @@ import {
     ListItemText 
 } from "./styles-maintables";
 
-
-const pokeList = [
-    "Rattata", "Eevee", "Meowth", "Ditto", "Taillow", "Patrat", "Deerling", "Stufful", "Wooloo", "Lechonk"
-];
-
 export default function MainTables(props) {
     const { pathname } = props;
-    let [pokemonList, setPokemonList] = useState([]);
+    let [pokemonList, setPokemonList] = useState([{"national-dex-number": 1, "name": "Select a type for a list"}]);
     let url = '';
 
     switch (pathname) {
@@ -65,9 +60,9 @@ export default function MainTables(props) {
             <ListDiv>
                 <ListPaper>
                     <PokemonList>
-                        {pokeList.map((pokemon, index) => (
-                            <TheListItem key={index}>
-                                <ListItemText onClick={() => console.log(pokemonList)}>{pokemon}</ListItemText>
+                        {pokemonList.map((pokemon) => (
+                            <TheListItem key={pokemon["national-dex-number"]}>
+                                <ListItemText>{pokemon.name}</ListItemText>
                             </TheListItem>
                         ))}
                     </PokemonList>
