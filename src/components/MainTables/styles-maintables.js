@@ -1,6 +1,12 @@
-import { Container, List, ListItem, Paper, Typography } from "@mui/material";
 import { Colors } from "../../theme/theme";
 import styled from "@emotion/styled";
+import { 
+    Container, 
+    List, 
+    ListItem, 
+    Paper, 
+    Typography 
+} from "@mui/material";
 
 //container
 export const MainDiv = styled(Container)(({ theme }) => ({

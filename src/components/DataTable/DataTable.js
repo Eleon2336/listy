@@ -4,7 +4,11 @@ import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { ContainsTable, LabelText, DataText } from './styles-datatables';
+import { 
+  ContainsTable, 
+  LabelText, 
+  DataText 
+} from './styles-datatables';
 
 const data = [
   {label: "Name:", value: "Rattata"},

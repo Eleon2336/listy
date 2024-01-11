@@ -5,7 +5,12 @@ import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import { Search, SearchIconWrapper, StyledInputBase, NavHeader } from './styles-searchappbar';
+import { 
+  Search, 
+  SearchIconWrapper, 
+  StyledInputBase, 
+  NavHeader 
+} from './styles-searchappbar';
 
 
 

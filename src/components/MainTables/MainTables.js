@@ -1,5 +1,13 @@
-import { DetailsDiv, ListDiv, ListPaper, MainDiv, PokemonList, TheListItem, ListItemText } from "./styles-maintables";
 import DataTable from "../DataTable/DataTable";
+import { 
+    DetailsDiv, 
+    ListDiv, 
+    ListPaper, 
+    MainDiv, 
+    PokemonList, 
+    TheListItem, 
+    ListItemText 
+} from "./styles-maintables";
 
 const pokeList = [
     "Rattata", "Eevee", "Meowth", "Ditto", "Taillow", "Patrat", "Deerling", "Stufful", "Wooloo", "Lechonk"

@@ -1,6 +1,9 @@
 import styled from "@emotion/styled";
-import { Container, Typography } from "@mui/material";
 import { Colors } from "../../theme/theme";
+import { 
+    Container, 
+    Typography 
+} from "@mui/material";
 
 export const FooterContainer = styled(Container)(({ theme }) => ({
     flex: "1.2",

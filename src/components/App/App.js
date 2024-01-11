@@ -1,8 +1,12 @@
 import { useTheme } from "@emotion/react";
-import { AppContainer, HeaderContainer, HeaderText } from "./styles-app";
 import SearchAppBar from "../SearchAppBar/SearchAppBar";
 import MainTables from "../MainTables/MainTables";
 import Footer from "../Footer/Footer";
+import { 
+  AppContainer, 
+  HeaderContainer, 
+  HeaderText 
+} from "./styles-app";
 
 function App() {
   const theme = useTheme();
