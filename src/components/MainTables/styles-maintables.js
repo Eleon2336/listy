@@ -52,8 +52,8 @@ export const TheListItem = styled(ListItem)(() => ({
     padding: "0 0 0.5rem"
 }));
 
-export const ListItemText = styled(Typography)(({ theme, clicked }) => ({
-    color: clicked ? theme.palette.secondary.main : theme.palette.info.main,
+export const ListItemText = styled(Typography)(({ theme }) => ({
+    color: theme.palette.info.main,
     fontSize: '0.85rem',
     [theme.breakpoints.down('md')]: {
       fontSize: '0.7rem',
