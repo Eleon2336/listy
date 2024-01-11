@@ -47,7 +47,7 @@ function App() {
             {locText}
           </HeaderText>
         </HeaderContainer>
-        <MainTables />
+        <MainTables pathname={pathname} />
         <Footer />
       </AppContainer>
     </>
