@@ -36,7 +36,7 @@ export const ListPaper = styled(Paper)(() => ({
 
 export const PokemonList = styled(List)(() => ({
     listStyle: "none",
-    padding: "1.5rem"
+    padding: "1rem"
 }));
 
 export const TheListItem = styled(ListItem)(() => ({
@@ -44,5 +44,6 @@ export const TheListItem = styled(ListItem)(() => ({
 }));
 
 export const ListItemText = styled(Typography)(({ theme }) => ({
-    color: theme.palette.info.main
+    color: theme.palette.info.main,
+    fontSize: "0.85rem"
 }));
