@@ -8,78 +8,27 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Colors } from '../../theme/theme';
 
+const data = [
+  {label: "Name:", value: "Rattata"},
+  {label: "DexNo:", value: 19},
+  {label: "Type:", value: "Normal"},
+  {label: "Egg-Group:", value: "Field"},
+  {label: "Base-Stat:", value: 253},
+  {label: "Abilities:", value: "Run Away, Guts"}
+];
+
 export default function DataTable() {
 
   return (
     <TableContainer component={Paper} sx={{ backgroundColor: Colors.lightGrey }}>
       <Table  aria-label="simple table">
         <TableBody>
-          <TableRow
-            key={"Name"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                Name: 
-            </TableCell>
-            <TableCell align="right">Rattata</TableCell>
-          </TableRow>
-          <TableRow
-            key={"DexNo"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                DexNo: 
-            </TableCell>
-            <TableCell align="right">19</TableCell>
-          </TableRow>
-          <TableRow
-            key={"Type"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                Type: 
-            </TableCell>
-            <TableCell align="right">Normal</TableCell>
-          </TableRow>
-          <TableRow
-            key={"Egg-Group"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                Egg-Group: 
-            </TableCell>
-            <TableCell align="right">Field</TableCell>
-          </TableRow>
-          <TableRow
-            key={"Base-Stat"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                Base-Stat: 
-            </TableCell>
-            <TableCell align="right">253</TableCell>
-          </TableRow>
-          <TableRow
-            key={"Abilities"}
-          >
-            <TableCell
-                component={"th"}
-                scope='row'
-            >
-                Abilities: 
-            </TableCell>
-            <TableCell align="right">Run Away, Guts</TableCell>
-          </TableRow>
+          {data.map((row, index) => (
+            <TableRow key={index}>
+              <TableCell component={"th"} scope='row'>{row.label}</TableCell>
+              <TableCell align="right">{row.value}</TableCell>
+            </TableRow>
+          ))}
         </TableBody>
       </Table>
     </TableContainer>
