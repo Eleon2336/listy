@@ -1,9 +1,10 @@
-import { FooterContainer } from "./styles-footer"
+import { FooterContainer, FooterText } from "./styles-footer"
 
 export default function Footer() {
     return (
         <FooterContainer>
-            <h1 style={{ color: "#0097a7" }}>Footer</h1>
+            <FooterText>&copy; Emmanuel Leon Company</FooterText>
+            <FooterText>Thank you for visiting!</FooterText>
         </FooterContainer>
     );
 }
