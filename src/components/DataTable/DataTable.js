@@ -2,11 +2,9 @@ import * as React from 'react';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { Colors } from '../../theme/theme';
+import { ContainsTable, LabelText, DataText } from './styles-datatables';
 
 const data = [
   {label: "Name:", value: "Rattata"},
@@ -20,17 +18,24 @@ const data = [
 export default function DataTable() {
 
   return (
-    <TableContainer component={Paper} sx={{ backgroundColor: Colors.lightGrey }}>
+    <ContainsTable component={Paper}>
       <Table  aria-label="simple table">
         <TableBody>
           {data.map((row, index) => (
             <TableRow key={index}>
-              <TableCell component={"th"} scope='row'>{row.label}</TableCell>
-              <TableCell align="right">{row.value}</TableCell>
+              <TableCell 
+                component={"th"} 
+                scope='row'
+              >
+                <LabelText>{row.label}</LabelText>
+              </TableCell>
+              <TableCell align="right">
+                <DataText>{row.value}</DataText>
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
-    </TableContainer>
+    </ContainsTable>
   );
 }
