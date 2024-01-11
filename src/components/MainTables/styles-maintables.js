@@ -11,6 +11,9 @@ export const MainDiv = styled(Container)(({ theme }) => ({
     padding: "0 0 1.5rem !important",
     margin: "0 !important",
     maxWidth: "none !important",
+    [theme.breakpoints.down("md")]: {
+        flex: "4"
+    },
     [theme.breakpoints.down("sm")]: {
         gap: "1rem"
     }
@@ -19,7 +22,7 @@ export const MainDiv = styled(Container)(({ theme }) => ({
 export const ListDiv = styled(Container)(() => ({
     flex: "1",
     padding: "0",
-    marginLeft: "1.2rem"
+    marginLeft: "1.2rem",
 }));
 
 export const DetailsDiv = styled(Container)(() => ({

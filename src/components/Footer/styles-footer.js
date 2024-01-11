@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { Container, Typography } from "@mui/material";
 import { Colors } from "../../theme/theme";
 
-export const FooterContainer = styled(Container)(() => ({
+export const FooterContainer = styled(Container)(({ theme }) => ({
     flex: "1.2",
     flexDirection: "column",
     display: "flex",
@@ -11,7 +11,10 @@ export const FooterContainer = styled(Container)(() => ({
     justifyContent: "center",
     alignItems: "center",
     background: Colors.mediumGrey,
-    maxWidth: "none !important"
+    maxWidth: "none !important",
+    [theme.breakpoints.down("sm")]: {
+        flex: "1"
+    }
 }));
 
 export const FooterText = styled(Typography)(({ theme }) => ({
@@ -19,6 +22,7 @@ export const FooterText = styled(Typography)(({ theme }) => ({
     fontSize: "0.75rem",
     padding: "0.25rem",
     [theme.breakpoints.down("md")]: {
-        fontSize: "0.65rem"
+        fontSize: "0.65rem",
+        padding: "0.15rem"
     }
 }))
