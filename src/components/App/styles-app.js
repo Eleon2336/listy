@@ -33,13 +33,3 @@ export const HeaderText = styled(Typography)(({ theme }) => ({
         fontSize: "1rem"
     }
 }));
-
-export const FooterContainer = styled(Container)(() => ({
-    flex: "1.2",
-    display: "flex",
-    margin: "0 !important",
-    padding: "0 !important",
-    justifyContent: "center",
-    background: Colors.mediumGrey,
-    maxWidth: "none !important"
-}));

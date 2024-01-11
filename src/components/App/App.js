@@ -1,7 +1,8 @@
-import { AppContainer, FooterContainer, HeaderContainer, HeaderText } from "./styles-app";
+import { useTheme } from "@emotion/react";
+import { AppContainer, HeaderContainer, HeaderText } from "./styles-app";
 import SearchAppBar from "../SearchAppBar/SearchAppBar";
 import MainTables from "../MainTables/MainTables";
-import { useTheme } from "@emotion/react";
+import Footer from "../Footer/Footer";
 
 function App() {
   const theme = useTheme();
@@ -19,10 +20,7 @@ function App() {
           </HeaderText>
         </HeaderContainer>
         <MainTables />
-
-        <FooterContainer>
-          <h1 style={{ color: "#0097a7" }}>Footer</h1>
-        </FooterContainer> 
+        <Footer />
       </AppContainer>
     </>
   );
