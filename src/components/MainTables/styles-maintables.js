@@ -52,13 +52,17 @@ export const TheListItem = styled(ListItem)(() => ({
     padding: "0 0 0.5rem"
 }));
 
-export const ListItemText = styled(Typography)(({ theme }) => ({
-    color: theme.palette.info.main,
-    fontSize: "0.85rem",
-    [theme.breakpoints.down("md")]: {
-        fontSize: "0.7rem"
+export const ListItemText = styled(Typography)(({ theme, clicked }) => ({
+    color: clicked ? theme.palette.secondary.main : theme.palette.info.main,
+    fontSize: '0.85rem',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '0.7rem',
     },
-    [theme.breakpoints.down("sm")]: {
-        fontSize: "0.65rem"
-    }
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '0.65rem',
+    },
+    '&:hover': {
+      textDecoration: 'underline',
+      cursor: 'pointer',
+    },
 }));

@@ -15,8 +15,19 @@ import {
 
 export default function MainTables(props) {
     const { pathname } = props;
-    let [pokemonList, setPokemonList] = useState([{"national-dex-number": 1, "name": "Select a type for a list"}]);
     let url = '';
+    const [pokemonList, setPokemonList] = useState([{"national-dex-number": 1, "name": "Select a type for a list"}]);
+    const [listItemTextClicked, setListItemTextClicked] = useState(
+        new Array(pokemonList.length).fill(false)
+    );
+
+    function handleListItemTextClick(index) {
+        setListItemTextClicked((prevClickedState) => {
+            const updatedClickedState = [...prevClickedState];
+            updatedClickedState[index] = !updatedClickedState[index];
+            return updatedClickedState;
+        });
+    }
 
     switch (pathname) {
         case '/normal':
@@ -60,9 +71,9 @@ export default function MainTables(props) {
             <ListDiv>
                 <ListPaper>
                     <PokemonList>
-                        {pokemonList.map((pokemon) => (
+                        {pokemonList.map((pokemon, index) => (
                             <TheListItem key={pokemon["national-dex-number"]}>
-                                <ListItemText>{pokemon.name}</ListItemText>
+                                <ListItemText clicked={listItemTextClicked[index]} onClick={() => handleListItemTextClick(index)}>{pokemon.name}</ListItemText>
                             </TheListItem>
                         ))}
                     </PokemonList>
