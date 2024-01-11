@@ -17,5 +17,8 @@ export const FooterContainer = styled(Container)(() => ({
 export const FooterText = styled(Typography)(({ theme }) => ({
     color: theme.palette.info.main,
     fontSize: "0.75rem",
-    padding: "0.25rem"
+    padding: "0.25rem",
+    [theme.breakpoints.down("md")]: {
+        fontSize: "0.65rem"
+    }
 }))
