@@ -69,8 +69,19 @@ export const NavHeader = styled(Typography)(({ theme }) => ({
   }
 }));
 
-export const PokeLink = styled(NavLink)(() => ({
+export const PokeLink = styled(NavLink)(({ theme }) => ({
   marginRight: "5rem",
   textDecoration: "none",
-  fontFamily: '"Roboto","Helvetica","Arial",sans-serif'
+  fontFamily: '"Roboto","Helvetica","Arial",sans-serif',
+  [theme.breakpoints.down("lg")]: {
+    fontSize: "0.8rem",
+    marginRight: "3rem"
+  },
+  [theme.breakpoints.down("md")]: {
+    fontSize: "0.75rem",
+    marginRight: "1.5rem"
+  },
+  [theme.breakpoints.down("sm")]: {
+    display: "none"
+  }
 }));
