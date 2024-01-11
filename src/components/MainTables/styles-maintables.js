@@ -1,4 +1,4 @@
-import { Container, List, ListItem, Paper } from "@mui/material";
+import { Container, List, ListItem, Paper, Typography } from "@mui/material";
 import { Colors } from "../../theme/theme";
 import styled from "@emotion/styled";
 
@@ -34,22 +34,15 @@ export const ListPaper = styled(Paper)(() => ({
     height: "100%"
 }));
 
-export const DetailsPaper = styled(Paper)(() => ({
-    background: Colors.lightGrey,
-    width: "100%",
-    height: "100%"
-}));
-
 export const PokemonList = styled(List)(() => ({
-    listStyle: "none",
-    padding: "1.5rem"
-}));
-
-export const DetailsList = styled(List)(() => ({
     listStyle: "none",
     padding: "1.5rem"
 }));
 
 export const TheListItem = styled(ListItem)(() => ({
     padding: "0 0 0.5rem"
+}));
+
+export const ListItemText = styled(Typography)(({ theme }) => ({
+    color: theme.palette.info.main
 }));
