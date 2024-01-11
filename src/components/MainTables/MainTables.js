@@ -14,7 +14,8 @@ import {
 } from "./styles-maintables";
 
 export default function MainTables(props) {
-    const [pokemonList, setPokemonList] = useState([{"national-dex-number": 1, "name": "Select a type for a list"}]);
+    const [pokemonList, setPokemonList] = useState([{"National-dex-number": 1, "Name": "Select a type for a list"}]);
+    const [selectedPokemon, setSelectedPokemon] = useState({});
 
     const { pathname } = props;
     let url = '';
@@ -55,15 +56,24 @@ export default function MainTables(props) {
         console.log("useEffect ran, love");
     }, [pathname, url])
 
+    function handleClick(event) {
+        const nameOfPokemon = event.target.innerHTML;
+        for (let i = 0; i < pokemonList.length; i++) {
+            if (pokemonList[i]["Name"] === nameOfPokemon) {
+                setSelectedPokemon(pokemonList[i]);
+            }
+        }
+    }
+
     return (
         <MainDiv>
             <ListDiv>
                 <ListPaper>
                     <PokemonList>
-                        {pokemonList.map((pokemon, index) => (
-                            <TheListItem key={pokemon["national-dex-number"]}>
-                                <ListItemText>
-                                    {pokemon.name}
+                        {pokemonList.map((pokemon) => (
+                            <TheListItem key={pokemon["National-Dex-Number"]}>
+                                <ListItemText onClick={handleClick}>
+                                    {pokemon.Name}
                                 </ListItemText>
                             </TheListItem>
                         ))}
@@ -71,7 +81,7 @@ export default function MainTables(props) {
                 </ListPaper>
             </ListDiv>
             <DetailsDiv>
-                <DataTable />
+                <DataTable selectedPokemon={selectedPokemon} />
             </DetailsDiv>
         </MainDiv>
     );

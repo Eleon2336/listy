@@ -10,22 +10,21 @@ import {
   DataText 
 } from './styles-datatables';
 
-const data = [
-  {label: "Name:", value: "Rattata"},
-  {label: "DexNo:", value: 19},
-  {label: "Type:", value: "Normal"},
-  {label: "Egg-Group:", value: "Field"},
-  {label: "Base-Stat:", value: 253},
-  {label: "Abilities:", value: "Run Away, Guts"}
-];
+export default function DataTable({ selectedPokemon }) {
+  const formattedData = [];
 
-export default function DataTable() {
+  for (let key in selectedPokemon) {
+    formattedData.push({
+      label: key,
+      value: selectedPokemon[key]
+    });
+  }
 
   return (
     <ContainsTable component={Paper}>
       <Table  aria-label="simple table">
         <TableBody>
-          {data.map((row, index) => (
+          {formattedData.map((row, index) => (
             <TableRow key={index}>
               <TableCell 
                 component={"th"} 
