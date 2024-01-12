@@ -1,92 +1,82 @@
 [
     {
-        "list-id": 11,
-        "name": "Charmander",
-        "national-dex-number": 4,
-        "type": ["fire"],
-        "egg-groups": ["dragon", "monster"],
-        "base-stat": 309,
-        "abilities": ["blaze", "solar power"]
+        "Name": "Charmander",
+        "National-Dex-Number": 4,
+        "Type": "Fire",
+        "Egg-groups": "Dragon, Monster",
+        "Base-stat": 309,
+        "Abilities": "Blaze, Solar power"
     },
     {
-        "list-id": 12,
-        "name": "Vulpix",
-        "national-dex-number": 37,
-        "type": ["fire"],
-        "egg-groups": ["field"],
-        "base-stat": 299,
-        "abilities": ["flash fire", "drought"]
+        "Name": "Vulpix",
+        "National-Dex-Number": 37,
+        "Type": "Fire",
+        "Egg-groups": "Field",
+        "Base-stat": 299,
+        "Abilities": "Flash fire, Drought"
     },
     {
-        "list-id": 13,
-        "name": "Slugma",
-        "national-dex-number": 218,
-        "type": ["fire"],
-        "egg-groups": ["amorphous"],
-        "base-stat": 250,
-        "abilities": ["magma armor", "flame body", "weak armor"]
+        "Name": "Slugma",
+        "National-Dex-Number": 218,
+        "Type": "Fire",
+        "Egg-groups": "Amorphous",
+        "Base-stat": 250,
+        "Abilities": "Magma armor, Flame body, Weak armor"
     },
     {
-        "list-id": 14,
-        "name": "Magby",
-        "national-dex-number": 240,
-        "type": ["fire"],
-        "egg-groups": ["undiscovered"],
-        "base-stat": 365,
-        "abilities": ["flame body", "vital spirit"]
+        "Name": "Magby",
+        "National-Dex-Number": 240,
+        "Type": "Fire",
+        "Egg-groups": "Undiscovered",
+        "Base-stat": 365,
+        "Abilities": "Flame body, Vital spirit"
     },
     {
-        "list-id": 15,
-        "name": "Numel",
-        "national-dex-number": 322,
-        "type": ["fire", "ground"],
-        "egg-groups": ["field"],
-        "base-stat": 305,
-        "abilities": ["oblivious"]
+        "Name": "Numel",
+        "National-Dex-Number": 322,
+        "Type": "Fire, Ground",
+        "Egg-groups": "Field",
+        "Base-stat": 305,
+        "Abilities": "Oblivious"
     },
     {
-        "list-id": 16,
-        "name": "Torkoal",
-        "national-dex-number": 324,
-        "type": ["fire"],
-        "egg-groups": ["field"],
-        "base-stat": 470,
-        "abilities": ["white smoke", "drought", "shell armor"]
+        "Name": "Torkoal",
+        "National-Dex-Number": 324,
+        "Type": "Fire",
+        "Egg-groups": "Field",
+        "Base-stat": 470,
+        "Abilities": "White smoke, Drought, Shell armor"
     },
     {
-        "list-id": 17,
-        "name": "Heatran",
-        "national-dex-number": 485,
-        "type": ["fire", "steel"],
-        "egg-groups": ["undiscovered"],
-        "base-stat": 600,
-        "abilities": ["flash fire", "flame body"]
+        "Name": "Heatran",
+        "National-Dex-Number": 485,
+        "Type": "Fire, Steel",
+        "Egg-groups": "Undiscovered",
+        "Base-stat": 600,
+        "Abilities": "Flash fire, Flame body"
     },
     {
-        "list-id": 18,
-        "name": "Darumaka",
-        "national-dex-number": 554,
-        "type": ["fire"],
-        "egg-groups": ["field"],
-        "base-stat": 315,
-        "abilities": ["hustle", "inner focus"]
+        "Name": "Darumaka",
+        "National-Dex-Number": 554,
+        "Type": "Fire",
+        "Egg-groups": "Field",
+        "Base-stat": 315,
+        "Abilities": "Hustle, Inner focus"
     },
     {
-        "list-id": 19,
-        "name": "Litten",
-        "national-dex-number": 725,
-        "type": ["fire"],
-        "egg-groups": ["field"],
-        "base-stat": 320,
-        "abilities": ["blaze", "intimidate"]
+        "Name": "Litten",
+        "National-Dex-Number": 725,
+        "Type": "Fire",
+        "Egg-groups": "Field",
+        "Base-stat": 320,
+        "Abilities": "Blaze, Intimidate"
     },
     {
-        "list-id": 20,
-        "name": "Charcadet",
-        "national-dex-number": 935,
-        "type": ["fire"],
-        "egg-groups": ["human-like"],
-        "base-stat": 255,
-        "abilities": ["flash fire", "flame body"]
+        "Name": "Charcadet",
+        "National-Dex-Number": 935,
+        "Type": "Fire",
+        "Egg-groups": "Human-like",
+        "Base-stat": 255,
+        "Abilities": "Flash fire, Flame body"
     }
 ]

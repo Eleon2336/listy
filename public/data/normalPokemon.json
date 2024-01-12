@@ -1,92 +1,82 @@
 [
     {
-        "list-id": 1,
-        "name": "Rattata",
-        "national-dex-number": 19,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 253,
-        "abilities": ["run away", "guts"]
+        "Name": "Rattata",
+        "National-Dex-Number": 19,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 253,
+        "Abilities": "Run away, Guts"
     },
     {
-        "list-id": 2,
-        "name": "Eevee",
-        "national-dex-number": 133,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 325,
-        "abilities": ["run away", "adaptability", "anticipation"]
+        "Name": "Eevee",
+        "National-Dex-Number": 133,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 325,
+        "Abilities": "Run away, Adaptability, Anticipation"
     },
     {
-        "list-id": 3,
-        "name": "Meowth",
-        "national-dex-number": 52,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 290,
-        "abilities": ["pickup", "technician", "unnerve"]
+        "Name": "Meowth",
+        "National-Dex-Number": 52,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 290,
+        "Abilities": "Pickup, Technician, Unnerve"
     },
     {
-        "list-id": 4,
-        "name": "Ditto",
-        "national-dex-number": 132,
-        "type": ["normal"],
-        "egg-groups": ["Ditto"],
-        "base-stat": 288,
-        "abilities": ["limber", "imposter"]
+        "Name": "Ditto",
+        "National-Dex-Number": 132,
+        "Type": "Normal",
+        "Egg-groups": "Ditto",
+        "Base-stat": 288,
+        "Abilities": "Limber, Imposter"
     },
     {
-        "list-id": 5,
-        "name": "Taillow",
-        "national-dex-number": 276,
-        "type": ["normal", "flying"],
-        "egg-groups": ["flying"],
-        "base-stat": 270,
-        "abilities": ["guts", "scrappy"]
+        "Name": "Taillow",
+        "National-Dex-Number": 276,
+        "Type": "Normal, Flying",
+        "Egg-groups": "Flying",
+        "Base-stat": 270,
+        "Abilities": "Guts, Scrappy"
     },
     {
-        "list-id": 6,
-        "name": "Patrat",
-        "national-dex-number": 504,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 255,
-        "abilities": ["run away", "keen eye", "analytic"]
+        "Name": "Patrat",
+        "National-Dex-Number": 504,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 255,
+        "Abilities": "Run away, Keen eye, Analytic"
     },
     {
-        "list-id": 7,
-        "name": "Deerling",
-        "national-dex-number": 585,
-        "type": ["normal", "grass"],
-        "egg-groups": ["field"],
-        "base-stat": 335,
-        "abilities": ["chlorophyll", "sap sipper", "serene grace"]
+        "Name": "Deerling",
+        "National-Dex-Number": 585,
+        "Type": "Normal, Grass",
+        "Egg-groups": "Field",
+        "Base-stat": 335,
+        "Abilities": "Chlorophyll, Sap sipper, Serene grace"
     },
     {
-        "list-id": 8,
-        "name": "Stufful",
-        "national-dex-number": 759,
-        "type": ["normal", "fighting"],
-        "egg-groups": ["field"],
-        "base-stat": 340,
-        "abilities": ["fluffy", "klutz", "cute charm"]
+        "Name": "Stufful",
+        "National-Dex-Number": 759,
+        "Type": "Normal, Fighting",
+        "Egg-groups": "Field",
+        "Base-stat": 340,
+        "Abilities": "Fluffy, Klutz, Cute charm"
     },
     {
-        "list-id": 9,
-        "name": "Wooloo",
-        "national-dex-number": 831,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 270,
-        "abilities": ["fluffy", "run away", "bulletproof"]
+        "Name": "Wooloo",
+        "National-Dex-Number": 831,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 270,
+        "Abilities": "Fluffy, Run away, Bulletproof"
     },
     {
-        "list-id": 10,
-        "name": "Lechonk",
-        "national-dex-number": 915,
-        "type": ["normal"],
-        "egg-groups": ["field"],
-        "base-stat": 254,
-        "abilities": ["aroma veil", "gluttony", "thick fat"]
+        "Name": "Lechonk",
+        "National-Dex-Number": 915,
+        "Type": "Normal",
+        "Egg-groups": "Field",
+        "Base-stat": 254,
+        "Abilities": "Aroma veil, Gluttony, Thick fat"
     }
 ]
